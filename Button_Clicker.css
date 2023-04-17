@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    font-family: cursive, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar{
+    width: 1000px;
+    height:50px;
+    background-color: darkgrey;
+    margin-left: 138px;
+    font-family: cursive, sans-serif;
+    display: flex;
+    margin: 0 auto;
+}
+
+.navlinks{
+    gap:60px;
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#navbtn{
+    justify-content: right;
+    margin-right: 15px;
+    background-color: blue;
+    color: lightgray;
+    box-shadow: 3px 2px 2px 2px  black;
+    border: 1px solid black
+}
+
+.container{
+    background-color:white;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.col-1{
+    background-color:white;
+    display: flex 2;
+    width: 60%;
+    height: 500px;
+    
+}
+
+.col-2{
+    background-color:white;
+    display:flex 1;
+    height:500px;
+    width:375px;
+    margin-left: 25px;
+}
+
+.ninja-1{
+    width: 600px;
+    height: 200px;
+    margin-top: 25px;
+    background-color: white;
+    font-family: cursive, sans-serif;
+    border: 3px solid black
+}
+
+.ninja-1 h3,
+.ninja-1 h5,
+.ninja-1 h6,
+.ninja-1 p{
+    margin-left:25px;
+}
+
+.ninja1links{
+
+}
+
+#ninja1btn{
+    justify-content: right;
+    margin-right: 25px;
+    background-color: gold;
+    color: black;
+    box-shadow: 3px 2px 2px 2px  black;
+    border: 2px solid black
+}
+.ninja-2{
+    width:600px;
+    height: 200px;
+    background-color:white;
+    font-family: cursive, sans-serif;
+    margin-top: 25px;
+    border: 3px solid black
+}
+
+.ninja-2 h3,
+.ninja-2 h5,
+.ninja-2 h6,
+.ninja-2 p{
+    margin-left:25px;
+}
+
+.ninja2links{
+
+}
+
+#ninja2btn{
+    justify-content: right;
+    margin-right: 25px;
+    background-color: gold;
+    color: black;
+    box-shadow: 3px 2px 2px 2px  black;
+    border: 2px solid black
+}
+
+.Dojonary{
+    margin-top: 25px;
+    width: 375px;
+    height: 150px;
+    background-color:white;
+    font-family: cursive, sans-serif;
+    border: 3px solid black;
+}
+
+.Dojonary h3{
+    margin-left: 25px;
+}
+
+#definition{
+    justify-content: right;
+    margin-right: 25px;
+    background-color:darkseagreen;
+    color: black;
+    box-shadow: 3px 2px 2px 2px  black;
+    border: 2px solid black
+}
