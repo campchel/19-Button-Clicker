@@ -5,8 +5,8 @@
 
 a{
     font-family: cursive, sans-serif;
-    color: black;
-    text-decoration: none;
+    color: blue;
+    
 }
 
 .navbar{
@@ -19,8 +19,14 @@ a{
     margin: 0 auto;
 }
 
+.nav-title{
+    margin-right: 150px;
+    padding-right: 400px;
+    margin-left: 50px;
+}
+
 .navlinks{
-    gap:60px;
+    gap:300px;
     display: flex;
     align-items: center;
     margin: 25px;
@@ -37,6 +43,19 @@ a{
     border: 1px solid black
 }
 
+#navbtn:hover,
+#ninja1btn:hover,
+#ninja2btn:hover,
+#definitionbtn:hover{ 
+    cursor: pointer;
+}
+
+#navbtn:active,
+#ninja1btn:active,
+#ninja2btn:active,
+#definitionbtn:active{
+    box-shadow: inset black 4px 4px 2px;
+}
 .container{
     background-color:white;
     width: 1000px;
@@ -49,7 +68,7 @@ a{
     background-color:white;
     display: flex 2;
     width: 60%;
-    height: 500px;
+    height: 300px;
     
 }
 
@@ -67,28 +86,55 @@ a{
     margin-top: 25px;
     background-color: white;
     font-family: cursive, sans-serif;
-    border: 3px solid black
+    border: 3px solid black;
 }
-
-.ninja-1 h3,
-.ninja-1 h5,
-.ninja-1 h6,
-.ninja-1 p{
-    margin-left:25px;
-}
-
-.ninja1links{
-
+.col1{
+    width:200px;
+    height: 200px;
+    background-color:white;
+    margin-top: -15px;
 }
 
 #ninja1btn{
     justify-content: right;
-    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
     background-color: gold;
     color: black;
-    box-shadow: 3px 2px 2px 2px  black;
-    border: 2px solid black
+    box-shadow: 4px 4px 4px black;
 }
+
+.ninja-1 h2,
+.ninja-2 h2,
+.ninja-1 h5,
+.ninja-2 h5{
+    margin-left:25px;
+    margin-top:15px;
+    display: flex 1;
+    gap: 20px;
+}
+.ninja-1 h4,
+.ninja-2 h4{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.ninja-1 p,
+.ninja-2 p{
+    display:inline;
+    margin-top: 50px;
+}
+
+.col2{
+    width:400px;
+    height: 200px;
+    background-color:white;
+    margin-top: -200px;
+    margin-left: 200px;
+    display: flex;
+}
+
+
 .ninja-2{
     width:600px;
     height: 200px;
@@ -98,24 +144,29 @@ a{
     border: 3px solid black
 }
 
-.ninja-2 h3,
-.ninja-2 h5,
-.ninja-2 h6,
-.ninja-2 p{
-    margin-left:25px;
+.col3{
+    width:200px;
+    height: 200px;
+    background-color:white;
+    margin-top: -15px;
 }
 
-.ninja2links{
-
+.col4{
+    width:400px;
+    height: 200px;
+    background-color:white;
+    margin-top: -200px;
+    margin-left: 200px;
+    display: flex;
 }
 
 #ninja2btn{
     justify-content: right;
-    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
     background-color: gold;
     color: black;
-    box-shadow: 3px 2px 2px 2px  black;
-    border: 2px solid black
+    box-shadow: 4px 4px 4px black;
 }
 
 .Dojonary{
@@ -128,14 +179,14 @@ a{
 }
 
 .Dojonary h3{
-    margin-left: 25px;
+    margin-left: 125px;
+    margin-bottom: 15px;
 }
 
-#definition{
+#definitionbtn{
     justify-content: right;
-    margin-right: 25px;
+    margin-left: 135px;
     background-color:darkseagreen;
     color: black;
-    box-shadow: 3px 2px 2px 2px  black;
-    border: 2px solid black
+    box-shadow: 4px 4px 4px black;
 }
